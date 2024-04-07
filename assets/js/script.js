@@ -64,7 +64,7 @@ const checkInputs = () => {
   } else if (!privacyCheckbox.checked) {
     return {
       status: false,
-      message: "Подвердите согласия на обработку персональных данных!"
+      message: "Подтвердите согласия на обработку персональных данных!"
     }
   } else {
     return {
